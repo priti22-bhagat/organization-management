@@ -1,0 +1,130 @@
+Program Structure
+
+I am developing my project on Banking Accounting System keeping in view of the functioning of the Bank to provide computerized facility to implement customers records and their Daily Transaction records.
+The complete structure of the programs is shown below:
+
+NAMING CONVENTION
+
+Objects 		Naming Conventions	
+
+Header files 	Iostream.h, fstream.h, process.h, string.h, stdio.h, ctype.h, conio.h,dos.h,values.h, stdlib.h, iomanip.h, graphics.h
+
+Classes	class main_menu, class shape 
+
+Modules	college entry, college display, college enquiry, college modification,student entry,student display,student enquiry,student modification,exam form entry,exam form display,exam schedule entry,exam schedule display,result entry,result display . 
+
+Functions       	normalvideo();reversevideo();box();menu();control_menu();
+Ed_menu();edit_menu();help();e_menu();entry_menu();d_menu();display_menu();enqu_menu();enquiry_menu();modify_menu();modification_menu();Line_hor( ); line_ver( ); box( );   add_to_file( ); display_list();modify();entry_newcollege();entry_newstudent();exam_formentry();examscheduleentry();result_entry();display_college();display_student();display_examform();display_examschedule();display_resultcollege_enquiry();student_enquiry();modify_college();modify_student();college_modification();student_modification();foundation();
+
+Objects 		Naming Conventions	
+
+Data files & fields COLLEGE.dat,STUDENT.dat,FORM.dat,SCHEDULE.dat,RESULTF.dat,RESULTS.dat,RESULTT.dat,RESULTMF.dat,RESULTMS.dat,coll_id,stu_id,form_id,coll_name,coll_add,coll_deg,coll_str,stu_name,stu_fname,stu_loc,stu_city,stu_state,stu_zip,stu_cont,stu_code,stu_strm,stu_deg,hp1,hp2,hp3,hp4,hp5,hp6,hp7,hp8,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,s1,s2,gk,com,sd1,ed1,sm1,em1,sy1,ey1
+ 
+Program variables	Choice; t; t_collid; t_stuid; t_formid;  t_collname;t_colladd;t_colldeg; t_collstr;t_stuname;t_stufname,t_loc,t_city,t_state,t_zip,t_cont,t_code,t_stustrm,t_studeg,t_hp1,t_hp2,t_hp3,t_hp4,t_hp5,t_hp6,t_hp7,t_hp8,t_p1,t_p2,t_p3,t_p4,t_p5,t_p6,t_p7,t_p8,t_p9,t_10,t_p11,t_p12,t_p13,t_p14,t_p15,t_p16,t_s1,t_s2,t_gk,t_com,t_sd1,t_ed1,t_sm1,t_em1,t_sy1,t_ey1
+
+Program file	University.cpp
+
+
+
+
+
+
+
+DATA STRUCTURES AND PROCESS LOGIC OF THE SYSTEM
+
+In University Management System (UMS) four data fields namely COLLEGE.dat, STUDENT.dat, FORM.dat, SCHEDULE.dat, RESULTF.dat, RESULTS.dat, RESULTT.dat, RESULTMF.dat, RESULTMS.dat is used data file for various purposes e.g. deleting, modifying etc. The principle of data design is based on ensuring the product of outputs designed by the system. Considering data items for required outputs and the record to be retained in the master file of our University Management System may have the following structure:
+
+DATA STRUCTURES
+COLLEGE database:	 collid: college id
+				 name: college name
+	 address: college address
+	stream:	college stream
+ degree:college degree
+
+STUDENT database:	stuid:student id
+	Name: student name
+Fname:father name
+		state:	student state
+city : student city
+zip: student pin code
+		code: student std code
+		stream:student stream
+degree:student degree
+	 SCHEDULE database: 
+degree: degree of the exam taken
+				sd1:   starting date
+				ed1: ending date
+				sm1: starting month
+				em1: ending month
+				sy1: starting year
+				ey1: ending year
+					
+	RESULT database:
+				stu_id: student id	
+				Name: student name
+				Address:student address
+				Degree:student degree
+				Stream:student stream
+				Hp1:honours paper 1
+				Hp2:honours paper
+				Hp3: honours paper
+				Hp4:honours paper
+Hp5:honours paper
+				Hp6: honours paper
+				Hp7: honours paper
+				Hp8: honours paper
+				P1:M.A paper
+				P2:M.A paper
+				P3: M.A paper
+				P4:M.A paper
+P5: M.A paper
+P6: M.A paper
+				P7: M.A paper
+				P8: M.A paper
+				P9: M.A paper
+			          P10: M.A paper
+			          P11: M.A paper
+			          P12: M.A paper	
+			          P13: M.A paper
+			          P14: M.A paper	
+			          P15: M.A paper
+			          P16: M.A paper
+				S1:subscidary
+				S2:sdubscidary
+				GK:general knowledge
+				Com:compulsory
+	
+
+Process Logic
+In University Management System we have provide a menu driven facility to the users for making a process simpler, easier and faster. The menu options provided under the main menu are listed below:
+
+ENTRY: to open college, student, exam form, exam schedule, result sub menu
+DISPLAY: to display different types of information related to entry menu
+MODIFY: to modify student and college
+ENQUIRY: having different types of enquiry information 	
+PERFORMANCE: displays the foundation of the university
+EXIT: exit from the main menu(project)
+
+On the selection of ENTRY menu the following processing will occur:
+COLLEGE
+STUDENT
+EXAM FORM
+EXAM SCHEDULE
+RESULT
+BACK TO PREVIOUS MENU
+On the selection of DISPLAY menu the following processing will occur:
+COLLEGE
+STUDENT
+EXAM FORM
+EXAM SCHEDULE
+RESULT
+BACK TO PREVIOUS MENU
+On the selection of ENQUIRY menu the following processing will occur:
+COLLEGE
+STUDENT
+BACK TO PREVIOUS MENU
+On the selection of MODIFY menu following processing will occur:
+COLLEGE
+STUDENT
+BACK TO PREVIOUS MENU
+It is delivered to the customer and enters the maintenance phase. 
